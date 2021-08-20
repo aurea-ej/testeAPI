@@ -1,0 +1,186 @@
+@import "../../global.scss";
+
+footer {
+
+    width: 100vw;
+    overflow-y: hidden;
+    color: #FFF;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+    flex-direction: column;
+
+}
+
+.rowObjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFooter {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.logoFooter img {
+
+    height: 30vh;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+    margin-bottom: 50px;
+    color: $amarelo;
+}
+
+.about p {
+    font-weight: bold;
+}
+
+
+.adress {
+
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.adress img {
+
+    height: 38px;
+    padding: 0px 4px;
+
+}
+
+.adress p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.socialMedia {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mascoteFooter {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 30%;
+    margin-right: 25px;
+
+}
+
+
+.mascoteFooter img {
+
+    height: 30vh;
+
+}
+
+.copyright h1 {
+    margin-top: 25px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+
+    footer {
+
+        flex-direction: column;
+        padding-bottom: 0;
+
+
+    }
+
+    .logoFooter {
+
+        width: 90vw;
+        height: auto;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .logoFooter img {
+
+        height: 110px;
+
+    }
+
+    .address{
+
+        width: 90vw;
+        height: auto;
+        text-align: justify;
+        margin: 0px;
+        /* max-height: none; */
+
+    }
+
+    .address ul {
+
+        width: 90vw;
+        justify-content: space-between;
+        padding: 0;
+
+    }
+
+    .address li {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 9pt;
+
+    }
+
+    .address p {
+
+        font-size: 9pt;
+
+    }
+
+    .adress {
+
+        width: 100vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-top: 50px;
+
+    }
+
+}
