@@ -49,9 +49,9 @@ export default function Footer (props) {
                         <p>CNPJ: 27.447.124/0001-76</p>
 
                         <div className="socialMedia">
-                            <a href='https://www.instagram.com/aureaej/'  > <img src={instagramIcon} alt='logoInstagram' /> </a>
-                            <a href='https://www.facebook.com/aureaej'  > <img src={facebookIcon} alt='logoFacebook' /> </a>
-                            <a href='https://www.linkedin.com/company/aureaej/'  > <img src={linkedinIcon} alt='logoLinkedin' /> </a>
+                            <a href='https://www.instagram.com/aureaej/' target="_blank" > <img src={instagramIcon} alt='logoInstagram' /> </a>
+                            <a href='https://www.facebook.com/aureaej' target="_blank" > <img src={facebookIcon} alt='logoFacebook' /> </a>
+                            <a href='https://www.linkedin.com/company/aureaej/'  target="_blank"> <img src={linkedinIcon} alt='logoLinkedin' /> </a>
                         </div>
 
                     </div>
@@ -62,7 +62,6 @@ export default function Footer (props) {
 
                     <Link to='/contato'> <img src={balaodefala} alt="balaodefala"/> </Link>
                     <img src={mascote} alt="mascote"/>
-
 
                 </div>
 

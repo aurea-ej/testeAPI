@@ -11,6 +11,11 @@ import pcComp from '../../imgs/PcComp.gif'
 import astronauta from '../../imgs/astronauta.png'
 import LuaRoxo from '../../imgs/luaRoxa.png'
 import testes from '../../imgs/testes.png'
+import BJ from '../../imgs/ParceirosBJ.png'
+import IFF from '../../imgs/ParceirosIFF.png'
+import RJ from '../../imgs/ParceirosRJ.png'
+import MOTIM from '../../imgs/ParceirosMotim.png'
+import FundoFuturo from '../../imgs/fundo-futurista.png'
 
 import './style.scss'
 
@@ -65,6 +70,7 @@ function Home(){
 
                 <section id="services">
 
+                    
                     <h1> CONHEÇA NOSSOS SERVIÇOS </h1>
 
                     <div className="rowObjects">
@@ -166,52 +172,54 @@ function Home(){
                 <section id="ourPartners">
 
                     <h1> Nossos parceiros </h1>
+                    <p> São nossa base e nosso maior orgulho, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <div className="partnersCardsWrapper">
 
                         <div className="partnersCards">
                             
-                            <div className="partnersImgWrapper"></div>
-                            <h1> IFF </h1>
-                            <h2> Fonseca </h2>
+                            <div className="partnersImgWrapper">
+                                <img src={RJ} alt="RioJunior"/>
+                            </div>
+                            <h1> <a href='http://www.riojunior.com.br/' target="_blank">RioJunior</a> </h1>
+                            <p> Federação de Empresas Juniores do estado do Rio de Janeiro </p>
+
+                        </div>
+                       
+                        <div className="partnersCards">
+
+                            <div className="partnersImgWrapper">
+                                <img src={BJ} alt="Brasil Júnior"/>
+                            </div>
+                            <h1> <a href='https://brasiljunior.org.br/' target="_blank">Brasil Júnior</a> </h1>
+                            <p> Instância que representa as empresas juniores brasileiras </p>
 
                         </div>
 
                         <div className="partnersCards">
 
                             <div className="partnersImgWrapper">
-{/*                                 <img src={logoRioJunior} alt="RioJunior"> */}
+                                <img src={MOTIM} alt="Motim"/>
                             </div>
-                            <h1> RioJunior </h1>
-                            <h2> Aline </h2>
+                            <h1> <a href='https://www.motim.me/' target="_blank">Motim</a> </h1>
+                            <p> Organização bla bla bla </p>
 
                         </div>
 
                         <div className="partnersCards">
 
-                            <div className="partnersImgWrapper"></div>
-                            <h1> BrasilJúnior </h1>
-                            <h2> Felix </h2>
-
-                        </div>
-
-                        <div className="partnersCards">
-
-                            <div className="partnersImgWrapper"></div>
-                            <h1> TélosConecta </h1>
-                            <h2> Felix </h2>
-
-                        </div>
-
-                        <div className="partnersCards">
-
-                            <div className="partnersImgWrapper"></div>
-                            <h1> Motim </h1>
-                            <h2> Felix </h2>
+                            <div className="partnersImgWrapper">
+                                <img src={IFF} alt="Instituto Federal Fluminense"/>
+                            </div>
+                            <h1> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank">Instituto Federal Fluminense</a>  </h1>
+                            <p> Organização bla bla bla </p>
 
                         </div>
 
                     </div>
 
+                    {/* <div className="partnersImgWrapperBackground">
+                        <img src={FundoFuturo} alt="Fundo" />
+                    </div> */}
                 </section>
 
             <WhatsappButton />
