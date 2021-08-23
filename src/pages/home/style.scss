@@ -9,7 +9,7 @@
 #mainHome {
 
     background-color: black;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
         justify-content: center;
         align-items: center;
         //text-align: center;
-        width: 100vw;
+        width: 100%;
         height: 90vh;
         margin-top: 100px;
   
@@ -111,8 +111,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 25vw;
+        right: 0;
+        width: 20vw;
         height: 80vh;
+        background-color: #dbb826;
 
         img {
             object-fit: contain;
@@ -210,6 +212,36 @@
         transform-origin: bottom left;
     }
 
+    p {
+        text-align: center;
+        margin-left: 1rem;
+        color: $amarelo;
+        margin-top: 5vh;
+        font-size: 1.5rem;
+        animation: glitch1 2s infinite;
+    }
+
+    p::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        inset: 0 0 0 0;
+        background: $roxo;
+        z-index: -1;
+        transition: transform .3s ease;
+      }
+      
+    p::before {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+    }
+
+    p:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
     h2 {
 
         color: $branco;
@@ -217,9 +249,11 @@
         font-size: 1.2rem;
         font-weight: 200;
         background-color: $preto;
+        opacity: 0.5;
         padding: 3px;
         
     }
+
 
     h3 {
         color: $branco;
@@ -227,6 +261,7 @@
         font-size: 1rem;
         font-weight: 200;
         background-color: $preto;
+        opacity: 0.5;
         padding: 3px;
     }
 
@@ -309,21 +344,36 @@
     .sectorServicearq:hover {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
+        h2, h3 {
+            opacity: 1;
+        }
     }
 
     .sectorServicecomp:hover {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
+
+        h2, h3 {
+            opacity: 1;
+        }
     }
 
     .sectorServiceele:hover {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
+
+        h2, h3 {
+            opacity: 1;
+        }
     }
 
     .sectorServiceauto:hover {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
+
+        h2, h3 {
+            opacity: 1;
+        }
     }
 
     .rowObjects {
@@ -340,8 +390,8 @@
         display: flex;
         flex-direction: row;
         height: 80vh;
-        width: 100vw;
         margin-left: 3rem;
+        width: 100vw;
 
         .chooseText {
 
@@ -350,11 +400,13 @@
             width: 55vw;
             flex-direction: column;
             padding: 1rem 2rem;
+            
 
             h1 {
     
                 color: #dbb826;
                 font-size: 3rem;
+                line-height: 2.8rem;
     
             }
 
@@ -376,6 +428,7 @@
             display: flex;
             width: 40vw;
             height: 100%;
+            right: 0;
 
             img {
 
@@ -406,6 +459,7 @@
 
         .feedbackCards {
 
+            margin-top: 2rem;
             align-items: flex-start;
             background-color: #dbb826;
             box-sizing: border-box;
@@ -424,11 +478,18 @@
 
             .feedbackImgWrapper {
 
+                display: flex;
                 width: 80px;
                 height: 80px;
-                background-color: #000;
-                border-radius: 100px;
                 margin-bottom: 1rem;
+
+                img {
+                    
+                    width: 80px;
+                    border-radius: 100px;
+                    height: 80px;
+                    
+                }
 
             }
 
@@ -446,10 +507,9 @@
 
 #ourPartners {
     width: 100vw;
-    height: 60vh;
-    background: #000;
-    padding: 2rem;
+    height: 100vh;
     //padding-left: 2rem 3rem;
+    padding: 2rem;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -463,18 +523,21 @@
     }
 
     p {
-        margin-left: 3rem;
         margin-top: 2rem;
         font-size: 1.3rem;
         font-weight: 200;
+        padding: 0 3rem;
     }
     
-
     .partnersCardsWrapper {
+        padding: 0 2rem;
         display: flex;
         flex-direction: row;
         margin: 0;
         z-index: 1000;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 
     .partnersCards {
@@ -488,32 +551,51 @@
         //margin: 1rem;
 
 
-        h1 {
-            margin-top: 1.5rem;
-            font-size: 2rem;
-        }
+        .partnersText {
+            
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
 
-        a {
-            text-decoration: none;
-            color: $amarelo;
-        }
+            h2 {
+                margin-top: 1.5rem;
+                //font-size: 2rem;
+                line-height: 1.5rem;
+                //padding: 0 2rem;
 
-        p {
-            margin-top: 1rem;
+            }
+    
+            a {
+                text-decoration: none;
+                color: $amarelo;
+            }
+    
+            p {
+                margin-top: .65rem;
+                font-size: 1rem;
+            }
+            
         }
         
     }
 
     .partnersImgWrapper {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 15vw;
-        height: 30vh;
-        border-radius: 100%;
+        height: 35vh;
 
         img {
-            margin-bottom: 3rem;
-            height: 300px;
+            
+            //margin-bottom: 0rem;
+            width: 200px;
             filter:grayscale(1) blur(2px);
-            transition: all .5s ease-in-out;  
+            transition: all .5s ease-in-out;
+            object-fit: contain;
 
             &:hover {
                 filter: none;

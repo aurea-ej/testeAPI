@@ -5,7 +5,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import WhatsappButton from "../../components/whatsappButton"
 
-import Astronauta1 from '../../imgs/Astronauta1.png'
+import Astronauta1 from '../../imgs/Astronauta4.png'
 import casaArq from '../../imgs/CasaArq1.gif'
 import pcComp from '../../imgs/PcComp.gif'
 import astronauta from '../../imgs/astronauta.png'
@@ -16,6 +16,7 @@ import IFF from '../../imgs/ParceirosIFF.png'
 import RJ from '../../imgs/ParceirosRJ.png'
 import MOTIM from '../../imgs/ParceirosMotim.png'
 import FundoFuturo from '../../imgs/fundo-futurista.png'
+import Joelma from '../../imgs/Joelma.jpg'
 
 import './style.scss'
 
@@ -66,16 +67,16 @@ function Home(){
 
                     </div>
 
-                </section>
+                </section> 
 
                 <section id="services">
 
-                    
                     <h1> CONHEÇA NOSSOS SERVIÇOS </h1>
+                    <p>Serviços de preço Júnior, com qualidade Sênior</p>
 
                     <div className="rowObjects">
 
-                        <div className="heroImgWrapper">
+                        <div className="servicesImgWrapper">
 
                             <img src={astronauta} />
 
@@ -140,7 +141,12 @@ function Home(){
 
                         <div className="feedbackCards">
                             
-                            <div className="feedbackImgWrapper"></div>
+                            <div className="feedbackImgWrapper">
+
+                                <img src={Joelma} alt="imagem de perfil" />
+
+                            </div>
+                            
                             <h2>Fulano de tal</h2>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -149,7 +155,12 @@ function Home(){
 
                         <div className="feedbackCards">
 
-                            <div className="feedbackImgWrapper"></div>
+                            <div className="feedbackImgWrapper">
+
+                                <img src={Joelma} alt="imagem de perfil" />
+
+                            </div>
+
                             <h2>Fulano de tal</h2>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -158,7 +169,12 @@ function Home(){
 
                         <div className="feedbackCards">
 
-                            <div className="feedbackImgWrapper"></div>
+                            <div className="feedbackImgWrapper">
+
+                                <img src={Joelma} alt="imagem de perfil" />
+
+                            </div>
+
                             <h2>Fulano de tal</h2>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -180,8 +196,13 @@ function Home(){
                             <div className="partnersImgWrapper">
                                 <img src={RJ} alt="RioJunior"/>
                             </div>
-                            <h1> <a href='http://www.riojunior.com.br/' target="_blank">RioJunior</a> </h1>
-                            <p> Federação de Empresas Juniores do estado do Rio de Janeiro </p>
+
+                            <div className="partnersText">
+
+                                <h2> <a href='http://www.riojunior.com.br/' target="_blank">RioJunior</a> </h2>
+                                <p> Federação de Empresas Juniores do estado do Rio de Janeiro </p>
+
+                            </div>
 
                         </div>
                        
@@ -190,8 +211,13 @@ function Home(){
                             <div className="partnersImgWrapper">
                                 <img src={BJ} alt="Brasil Júnior"/>
                             </div>
-                            <h1> <a href='https://brasiljunior.org.br/' target="_blank">Brasil Júnior</a> </h1>
-                            <p> Instância que representa as empresas juniores brasileiras </p>
+
+                            <div className="partnersText">
+
+                                <h2> <a href='https://brasiljunior.org.br/' target="_blank">Brasil Júnior</a> </h2>
+                                <p> Instância que representa as empresas juniores brasileiras </p>
+
+                            </div>
 
                         </div>
 
@@ -200,8 +226,13 @@ function Home(){
                             <div className="partnersImgWrapper">
                                 <img src={MOTIM} alt="Motim"/>
                             </div>
-                            <h1> <a href='https://www.motim.me/' target="_blank">Motim</a> </h1>
-                            <p> Organização bla bla bla </p>
+
+                            <div className="partnersText">
+
+                                <h2> <a href='https://www.motim.me/' target="_blank">Motim</a> </h2>
+                                <p> Organização bla bla bla </p>
+
+                            </div>
 
                         </div>
 
@@ -210,16 +241,18 @@ function Home(){
                             <div className="partnersImgWrapper">
                                 <img src={IFF} alt="Instituto Federal Fluminense"/>
                             </div>
-                            <h1> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank">Instituto Federal Fluminense</a>  </h1>
-                            <p> Organização bla bla bla </p>
+
+                            <div className="partnersText">
+
+                                <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank">Instituto Federal Fluminense</a>  </h2>
+                                <p> Organização bla bla bla </p>
+
+                            </div>
 
                         </div>
 
                     </div>
 
-                    {/* <div className="partnersImgWrapperBackground">
-                        <img src={FundoFuturo} alt="Fundo" />
-                    </div> */}
                 </section>
 
             <WhatsappButton />
