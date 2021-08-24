@@ -1,0 +1,26 @@
+@import "../../global.scss";
+
+#App {
+    background-color: $preto;
+}
+
+#contactMain {
+
+    display: flex;
+    flex-direction: column;
+
+    .logo-2 {
+        img {
+            margin-top: 100px;
+        }
+    }
+
+    h2, p {
+        color: $amarelo;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+}

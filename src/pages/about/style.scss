@@ -1,0 +1,291 @@
+@import "../../global.scss";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#mainAboutUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $preto;
+    width: 100%;
+    height: 100%;
+}
+
+#heroSectionAbout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 100px;
+    padding: 25px;
+    text-indent: 2em;
+
+    .rowObjects {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .collumnObjects {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+    }
+
+    .heroImgWrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+        width: 20vw;
+        height: 80vh;
+
+        img {
+            object-fit: contain;
+            height: 150vh;
+            width: auto;
+            select: none;
+        }
+
+    }
+
+    h1 {
+        color: $roxo;
+        font-size: 4em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        text-align: left;
+        z-index: 1;
+
+        animation: glitch1 2s infinite;
+    }
+
+    h1::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        inset: 0 0 0 0;
+        background: #d4d4d4;
+        
+        z-index: -1;
+        transition: transform .3s ease;
+      }
+      
+    h1::before {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+    }
+
+    h1:hover::before {
+        transform: scaleX(0.8);
+        transform-origin: bottom left;
+    }
+
+    a {
+        color: $branco;
+        cursor: pointer;
+        padding: 0 3px;
+        font-weight: bold;
+    }
+
+    p {
+        color: $amarelo;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        z-index: 1;
+        text-align: justify;
+        width: 50vw;
+    }
+}
+
+#sectionWhoWeAre {
+    
+    .missionValuesEyesight {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 10vh;
+        width: 100vw;
+
+        .cardM {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 1em;
+            text-align: left;
+            margin: 0 10px 10px 10px;
+            width: 25vw;
+            height: 23vh;
+            border-radius: 20px;
+            background-image: url('../../imgs/FundoMissao.png');
+            background-size: cover;
+            background-color: $roxo;
+            transition: all 0.5s;
+        }
+
+        .cardV1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 1em;
+            text-align: left;
+            margin: 0 10px 10px 10px;
+            width: 25vw;
+            height: 23vh;
+            border-radius: 20px;
+            background-image: url('../../imgs/FundoVisao.png');
+            background-size: cover;
+            background-color: $roxo;
+            transition: all 0.5s;
+        }
+
+        .cardV2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 1em;
+            text-align: left;
+            margin: 0 10px 10px 10px;
+            width: 25vw;
+            height: 23vh;
+            border-radius: 20px;
+            background-image: url('../../imgs/FundoValores.png');
+            background-size: cover;
+            background-color: $roxo;
+            transition: all 0.5s;
+        }
+
+        .cardM:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .cardV1:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .cardV2:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        h3, p, tr, td, b {
+
+            color: $branco;
+            opacity: 0.9;
+
+        }
+         
+        h3 {
+            text-align: center;
+            animation: glitch1 2s infinite;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+        h3::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: $preto;
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h3::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h3:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+    }
+}
+
+#membersFeedback {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .membersCard {
+
+        position: relative;
+        display:flex;
+        width: 300px;
+        height: 420px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: 1px solid $roxo;
+        padding: 6px;
+        align-items: center;
+        text-align:center;
+
+        .membersImgWrapper {
+
+            display: flex;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+
+            img {
+            
+                filter:grayscale(1);
+                transition: all .5s ease-in-out;
+                width: 100%;
+                height: 100%;
+    
+                &:hover {
+
+                    filter: none;
+
+                }
+            }
+
+        }
+
+    }
+
+    .membersFeedbackText {
+
+        position: absolute;
+        text-align: center;
+
+        h3 {
+
+            color: $branco;
+            text-transform: uppercase;
+
+        }
+
+    }
+    
+}

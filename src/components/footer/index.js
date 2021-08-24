@@ -68,7 +68,7 @@ export default function Footer (props) {
             </div>
 
             <div className="copyright">
-                <h1>Desenvolvido com Node.js © 2021 Aurea Empresa Júnior</h1>
+                <h1>Desenvolvido com React.js © 2021 Aurea Empresa Júnior</h1>
             </div>
 
 

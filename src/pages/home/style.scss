@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+
+    &::selection{
+        background-color: $roxo;
+    }
 }
 
 #mainHome {
@@ -14,6 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -114,12 +119,24 @@
         right: 0;
         width: 20vw;
         height: 80vh;
-        background-color: #dbb826;
 
         img {
             object-fit: contain;
             height: auto;
             width: auto;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+            pointer-events: none;
+            -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  
         }
 
     }
@@ -150,6 +167,10 @@
             color: $branco;
             font-size: 5rem;
             font-family: 'Bebas Neue', sans-serif;
+
+            &::selection{
+                background-color: #dbb826;
+            }
         }
 
         a {
@@ -157,6 +178,7 @@
             color: $amarelo;
             font-size: 3rem;
             line-height: 2.85rem;
+
         }
     }
 }
@@ -435,6 +457,18 @@
                 height: auto;
                 width: auto;
                 transform: rotate(90deg);
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                
+                pointer-events: none;
+                -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
 
             }
 
@@ -447,6 +481,8 @@
 #feedbackCards {
 
     display: flex;
+    padding-left: 2rem;
+        padding-right: 2rem;
 
     .feedbackCardsWrapper {
 
@@ -456,6 +492,7 @@
         justify-content: center;
         padding-bottom: 105px;
         justify-content: space-around;
+        
 
         .feedbackCards {
 
@@ -488,7 +525,19 @@
                     width: 80px;
                     border-radius: 100px;
                     height: 80px;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -khtml-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
                     
+                    pointer-events: none;
+                    -webkit-user-drag: none;
+                    -khtml-user-drag: none;
+                    -moz-user-drag: none;
+                    -o-user-drag: none;
+
                 }
 
             }
@@ -596,6 +645,7 @@
             filter:grayscale(1) blur(2px);
             transition: all .5s ease-in-out;
             object-fit: contain;
+
 
             &:hover {
                 filter: none;
