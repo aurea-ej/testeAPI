@@ -3,7 +3,7 @@ import React, {useRef, useEffect, useState} from 'react'
 import emailjs from "emailjs-com";
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import logoAurea from '../../imgs/logoHeader1.png'
+import logoAurea from '../../imgs/logoAurea2.png'
 import WhatsappButton from "../../components/whatsappButton"
 
 import './style.scss'
@@ -126,15 +126,17 @@ const WhoWeAre = () => {
 
                 <form className="contact-form" onSubmit={sendEmail}>
 
-                    <input id="inputID" type="text" className="textBox" name="user_name" placeholder="Nome"/>
+                    <input id="inputID" type="text" className="textBox" name="user_name" placeholder="Nome*"/>
 
-                    <input id="inputID" type="text" className="textBox" name="user_email" placeholder="Seu E-mail"/>
+                    <input id="inputID" type="text" className="textBox" name="user_email" placeholder="Seu E-mail*"/>
 
-                    <input id="inputID" type="text" className="textBox" name="user_number" placeholder="Telefone"/>
+                    <input id="inputID" type="text" className="textBox" name="user_number" placeholder="Telefone*"/>
 
-                    <select name="uf" id="uf" onChange={handleSelectedUf} value={selectedUf} >
+                    <div className="leftAlign">
 
-                        <option value="0">Selecione um estado</option>
+                        <select name="uf" id="uf" onChange={handleSelectedUf} value={selectedUf} >
+
+                        <option value="0">Selecione um estado*</option>
 
                         {ufs.map( uf => (
 
@@ -142,11 +144,11 @@ const WhoWeAre = () => {
 
                         ) )}
 
-                    </select>
+                        </select>
 
-                    <select name="city" id="city" onChange={handleSelectedCity} value={selectedCity} >
+                        <select name="city" id="city" onChange={handleSelectedCity} value={selectedCity} >
 
-                        <option value="0">Selecione uma cidade</option>
+                        <option value="0">Selecione uma cidade*</option>
 
                         {city.map( city => (
 
@@ -154,23 +156,20 @@ const WhoWeAre = () => {
 
                         ) )}
 
-                    </select>
+                        </select>
+
+                    </div>
 
                     <textarea id="inputID" className="messageBox" name="message" cols="30" rows="8" placeholder="Sua mensagem"/>
                     
                     <div className="buttonsFormRegister">
-                    <input id='enterButtonSignIn' type="submit" className="submitBox" value="Enviar Mensagem"></input>
+                        <input id='enterButtonSignIn' type="submit" className="submitBox" value="Enviar Mensagem"></input>
                     </div>
 
                 </form>
 
 
-                <div className='whatsappContact'>
-                    <h3>Ou se preferir...</h3>
-                    <a href="https://api.whatsapp.com/send?phone=TELEFONE&text=Como%20podemos%20te%20ajudar?" target="_blank" >
-                        <img src={WhatsappButton} id='wppImage' />
-                    </a>
-                </div> 
+                <WhatsappButton />
 
             </section>
 

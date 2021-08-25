@@ -2,25 +2,107 @@
 
 #App {
     background-color: $preto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 #contactMain {
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 50%;
 
     .logo-2 {
         img {
             margin-top: 100px;
+            object-fit: contain;
+            height: 30vh;
+            width: auto;
+            select: none;
         }
     }
 
-    h2, p {
+    h2 {
+        color: $roxo;
+        font-size: 2em;
+    }
+
+    p {
         color: $amarelo;
+    }
+
+    h2, p {
+        margin: 20px;
     }
 
     .contact-form {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        width: 100%;
+
+        input, select {
+            margin: 10px 0px 10px 0px;
+            width: 40vw;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: $amarelo;
+            color: $preto;
+            font-weight: bold;
+            border: none;
+        }
+
+        input {
+            height: 25px;
+        }
+
+        select {
+            width: 15vw;
+        }
+
+        textarea {
+            margin: 10px 0px 10px 0px;
+            width: 40vw;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: $amarelo;
+            color: $preto;
+            border: none;
+            font-weight: bold;
+        }
+
+        .leftAlign {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .buttonsFormRegister {
+
+            input {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10vw;
+                height: 5vh;
+            }
+
+            input:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .whatsappContact {
+        h3 {
+            color: $amarelo;
+        }
     }
 }

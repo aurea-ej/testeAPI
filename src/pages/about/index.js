@@ -42,7 +42,16 @@ function AboutUs() {
 
             </section>
 
-            <section id='sectionWhoWeAre' >
+            <section id='sectionWhoWeAre'>
+
+                <div className="MVV">
+
+                    <h1>Nosso MVV</h1>
+
+                    <p>O tripé Missão, Visão e Valores, carinhosamente apelidado como MVV, é uma
+estratégia interna imprescindível para a empresa ter entendimento de si mesma.</p>
+
+                </div>
 
                 <div className="missionValuesEyesight" >
 
