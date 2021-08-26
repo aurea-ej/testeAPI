@@ -49,7 +49,7 @@ function AboutUs() {
                     <h1>Nosso MVV</h1>
 
                     <p>O tripé Missão, Visão e Valores, carinhosamente apelidado como MVV, é uma
-estratégia interna imprescindível para a empresa ter entendimento de si mesma.</p>
+                        estratégia interna imprescindível para a empresa ter entendimento de si mesma.</p>
 
                 </div>
 
@@ -93,120 +93,131 @@ estratégia interna imprescindível para a empresa ter entendimento de si mesma.
                         </div>
                     </div>
 
-
                 </div>
 
             </section>
 
-            <section id="membersFeedback">
+            <section id="membersFeedbackSection">
 
-                <div className="membersCard">
+                <div className="membersFeedbackIntro">
 
-                    <div className="membersFeedbackText">
+                    <h1>Conheça nossos membros</h1>
 
-                        <h3>Guiguibas</h3>
+                </div>
 
-                        <h5>Pai do Discord</h5>
+                <h2>Engenharia de Computação</h2>
 
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+                <div className="membersFeedback">
 
-                        <img draggable="false" src={Gui} />
+                    <div className="membersCard">
 
-                        <div className="socialMediaMembers">
+                        <div className="membersFeedbackText">
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                            <h3>Guiguibas</h3>
 
-                                <img src={Linkedin} alt="LinkedIn" />
+                            <h5>Pai do Discord</h5>
 
-                            </a>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                            <img draggable="false" src={Gui} />
 
-                                <img src={Instagram} alt="Instagram" />
+                            <div className="socialMediaMembers">
 
-                            </a>
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                                    <img src={Linkedin} alt="LinkedIn" />
 
-                                <img src={Instagram} alt="Instagram" />
+                                </a>
 
-                            </a>
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                            </div>
 
                         </div>
 
                     </div>
 
-                </div>
+                    <div className="membersCard">
 
-                <div className="membersCard">
+                        <div className="membersFeedbackText">
 
-                    <div className="membersFeedbackText">
+                            <h3>The only one 💯</h3>
 
-                        <h3>The only one 💯</h3>
+                            <h5>Norte Fluminense tem IFF?</h5>
 
-                        <h5>Norte Fluminense tem IFF?</h5>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+                            <img draggable="false" src={oPai} />
 
-                        <img draggable="false" src={oPai} />
+                            <div className="socialMediaMembers">
 
-                        <div className="socialMediaMembers">
+                                <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
 
-                            <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
+                                    <img src={Linkedin} alt="LinkedIn" />
 
-                                <img src={Linkedin} alt="LinkedIn" />
+                                </a>
 
-                            </a>
+                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                            <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
+                                    <img src={Instagram} alt="Instagram" />
 
-                                <img src={Instagram} alt="Instagram" />
+                                </a>
 
-                            </a>
+                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                            <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
+                                    <img src={Instagram} alt="Instagram" />
 
-                                <img src={Instagram} alt="Instagram" />
+                                </a>
 
-                            </a>
+                            </div>
 
                         </div>
 
                     </div>
 
-                </div>
+                    <div className="membersCard">
 
-                <div className="membersCard">
+                        <div className="membersFeedbackText">
 
-                    <div className="membersFeedbackText">
+                            <h3>Micaella Condoiselle</h3>
 
-                        <h3>Micaella Condoiselle</h3>
+                            <h5>Viciada em Bis</h5>
 
-                        <h5>Viciada em Bis</h5>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+                            <img draggable="false" src={Micaella} />
 
-                        <img draggable="false" src={Micaella} />
+                            <div className="socialMediaMembers">
 
-                        <div className="socialMediaMembers">
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                                    <img src={Linkedin} alt="LinkedIn" />
 
-                                <img src={Linkedin} alt="LinkedIn" />
+                                </a>
 
-                            </a>
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                                    <img src={Instagram} alt="Instagram" />
 
-                                <img src={Instagram} alt="Instagram" />
+                                </a>
 
-                            </a>
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                            <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+                                    <img src={Instagram} alt="Instagram" />
 
-                                <img src={Instagram} alt="Instagram" />
+                                </a>
 
-                            </a>
+                            </div>
 
                         </div>
 
@@ -219,6 +230,7 @@ estratégia interna imprescindível para a empresa ter entendimento de si mesma.
             <Footer />
 
         </div>
+
     )
 
 }

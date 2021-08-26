@@ -287,28 +287,79 @@
     }
 }
 
-#membersFeedback {
+#membersFeedbackSection {
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: row;
-    justify-content: space-around;
 
-    .membersCard {
+    h2 {
 
-        position: relative;
-        display:flex;
-        width: 300px;
-        height: 420px;
-        align-items: flex-start;
-        flex-direction: column;
+        margin-top: 2rem;
+        color: $amarelo;
+
+    }
+
+    .membersFeedbackIntro {
+
+        h1 {
+
+            color: $roxo;
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: right;
+
+            animation: glitch1 2s infinite;
+        }
+
+        h1::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: #d4d4d4;
+            
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h1::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h1:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+    }
+
+    .membersFeedback {
+
+        display: flex;
         justify-content: center;
-        border: 1px solid $roxo;
         align-items: center;
-        text-align:center;
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 4rem auto;
+        padding: 0;
+
+        .membersCard {
+
+            position: relative;
+            display:flex;
+            width: 300px;
+            height: 420px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid $roxo;
+            align-items: center;
+            text-align:center;
 
         }
 
@@ -440,5 +491,6 @@
         }
 
     }
+}
 
     
