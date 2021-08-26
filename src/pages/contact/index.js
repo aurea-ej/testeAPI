@@ -118,11 +118,11 @@ const WhoWeAre = () => {
             <section id='contactMain'>
 
                 <div className="logo-2">
-                    <img src={logoAurea} alt="Logo armazém do vinho" />
+                    <img src={logoAurea} alt="Logo Aurea" />
                 </div>
 
                 <h2> Entre em contato conosco! </h2>
-                <p> Preencha os campos abaixo com seus dados e mensagem, e então clique em enviar, uma janela para envio de e-mail irá aparecer para que seja possível concluir o envio, assim que enviada responderemos em breve! </p>
+                <p> Preencha os campos abaixo e clique em "Enviar Mensagem", em no máximo 2 dias úteis você receberá uma resposta nossa equipe. </p>
 
                 <form className="contact-form" onSubmit={sendEmail}>
 
@@ -160,7 +160,7 @@ const WhoWeAre = () => {
 
                     </div>
 
-                    <textarea id="inputID" className="messageBox" name="message" cols="30" rows="8" placeholder="Sua mensagem"/>
+                    <textarea id="inputID" className="messageBox" name="message" cols="30" rows="8" placeholder="Sua mensagem*"/>
                     
                     <div className="buttonsFormRegister">
                         <input id='enterButtonSignIn' type="submit" className="submitBox" value="Enviar Mensagem"></input>

@@ -30,10 +30,35 @@
     h2 {
         color: $roxo;
         font-size: 2em;
+        animation: glitch1 2s infinite;
+    }
+
+    h2::before {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        inset: 0 0 0 0;
+        background: #d4d4d4;
+        
+        z-index: -1;
+        transition: transform .3s ease;
+      }
+      
+    h2::before {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+    }
+
+    h2:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 
     p {
         color: $amarelo;
+        text-align: justify;
+        text-indent: 2em;
     }
 
     h2, p {
@@ -48,7 +73,7 @@
         width: 100%;
 
         input, select {
-            margin: 10px 0px 10px 0px;
+            margin: 5px 0px 5px 0px;
             width: 40vw;
             padding: 10px;
             border-radius: 5px;
@@ -59,7 +84,7 @@
         }
 
         input {
-            height: 25px;
+            height: 30px;
         }
 
         select {
@@ -67,7 +92,7 @@
         }
 
         textarea {
-            margin: 10px 0px 10px 0px;
+            margin: 5px 0px 5px 0px;
             width: 40vw;
             padding: 10px;
             border-radius: 5px;
@@ -79,9 +104,14 @@
 
         .leftAlign {
             display: flex;
-            width: 100%;
-            flex-direction: row;
-            justify-content: space-around;
+            align-items: space-between;
+            justify-content: space-between;
+            margin: 5px 0px 5px 0px;
+            width: 40vw;
+            border-radius: 5px;
+            color: $preto;
+            font-weight: bold;
+            border: none;
         }
 
         .buttonsFormRegister {
@@ -92,6 +122,8 @@
                 align-items: center;
                 width: 10vw;
                 height: 5vh;
+                background-color: $roxo;
+                color: $branco;
             }
 
             input:hover {
