@@ -98,7 +98,7 @@ function AboutUs() {
 
             </section>
 
-            <section id="membersFeedbackSection">
+            {/* <section id="membersFeedbackSection">
 
                 <div className="membersFeedbackIntro">
 
@@ -226,7 +226,7 @@ function AboutUs() {
 
                 </div>
 
-            </section>
+            </section> */}
 
             <section id="customerFeedback">
 

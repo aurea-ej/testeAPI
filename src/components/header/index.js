@@ -50,7 +50,7 @@ export default function Header (props) {
 
                         <li> <Link to='/' > Início </Link> </li>
                         <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                        <li> <a href='/#services'> Serviços </a> </li>
+                        <li> <a href='/Servicos'> Serviços </a> </li>
                         <li> <Link to='/Contato'> Contato </Link> </li>
                         <li> <Link to='/Blog'> Blog </Link> </li>
 

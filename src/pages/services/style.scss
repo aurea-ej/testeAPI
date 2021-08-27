@@ -1,0 +1,133 @@
+@import "../../global.scss";
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $preto;
+
+}
+
+#servicesPage {
+    width: 100%;
+    margin-top: 100px;
+
+    .headServices {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        img {
+            object-fit: contain;
+            height: auto;
+            width: 20vw;
+            margin-right: 2em;
+            -webkit-user-drag: none;
+        }
+
+        h1 {
+            color: $roxo;
+            font-size: 3em;
+            font-weight: bold;
+            text-align: right;
+
+            animation: glitch1 2s infinite;
+        }
+
+        h1::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: #d4d4d4;
+            
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h1::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h1:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        .textHeadServices {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50vw;
+
+            p {
+                color: $amarelo;
+                margin-top: 2em;
+                text-align: justify;
+                font-size: 1.2em;
+                text-indent: 2em;
+            }
+        }
+    }
+
+    .servicesBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+
+        .servicesCard {
+            background-color: $amarelo;
+            margin: 0 3em 0 3em;
+            height: 30vh;
+            width: 30vw;
+            border-radius: 20px;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.5s;
+
+
+            h2 {
+                color: $roxo;
+                text-align: center;
+            }
+
+            p, a {
+                color: $roxo;
+                text-align: center;
+            }
+
+            a {
+                background-color: $roxo;
+                color: $amarelo;
+                padding: 0.5em;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: all 0.3s;
+            }
+
+            a:hover {
+                background-color: $preto;
+            }
+
+            a:active {
+                background-color: $branco;
+                transition: all 0.1s;
+            }
+        }
+
+        .servicesCard:hover {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+}

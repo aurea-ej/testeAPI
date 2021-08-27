@@ -1,5 +1,12 @@
 @import "../../global.scss";
 
+* {
+    &::selection{
+        background-color: $roxo;
+        color: $amarelo;
+    }
+}
+
 #App {
     background-color: $preto;
     display: flex;
@@ -124,10 +131,17 @@
                 height: 5vh;
                 background-color: $roxo;
                 color: $branco;
+                transition: all 0.5s;
             }
 
             input:hover {
                 cursor: pointer;
+                background-color: $cinza;
+            }
+
+            input:active {
+                background-color: $amarelo;
+                transition: all 0.1s;
             }
         }
     }
