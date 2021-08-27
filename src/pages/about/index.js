@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/header'
@@ -20,6 +20,7 @@ function AboutUs() {
 
     return (
         <div id='mainAboutUs'>
+
             <Header />
 
             <section id='heroSectionAbout'>
@@ -224,6 +225,12 @@ function AboutUs() {
                     </div>
 
                 </div>
+
+            </section>
+
+            <section id="customerFeedback">
+
+
 
             </section>
 
