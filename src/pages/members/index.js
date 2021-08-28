@@ -18,7 +18,7 @@ import './style.scss'
 
 function Members() {
 
-    return(
+    return (
 
         <div id="mainOurMembers">
 
@@ -30,9 +30,11 @@ function Members() {
 
                     <h1>Conheça nossas lideranças</h1>
 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste facilis eligendi tempore neque, totam quo doloribus deserunt optio unde veritatis? Repudiandae voluptatibus minima delectus iusto aliquid, mollitia amet quidem. Eligendi, vitae! Beatae quisquam, sequi at dolorem voluptas modi temporibus consequatur rem nobis saepe recusandae tempore possimus in quos id et exercitationem aut fugiat expedita nisi nam? Quas animi vel dolores laborum sit voluptatem, recusandae nam officiis. Quis debitis magnam eius repellat asperiores, molestias neque fuga ex quas facere sint eveniet dolorem obcaecati, quibusdam ipsum enim natus? Nam assumenda repellat vel nulla vero dignissimos, explicabo doloribus quaerat, reiciendis ab quos.</p>
+
                 </div>
 
-                <h2>Diretoria Executiva</h2>
+                <h1>Diretoria Executiva</h1>
 
                 <div className="membersFeedback">
 
@@ -150,9 +152,85 @@ function Members() {
 
                     </div>
 
+                    <div className="membersCard">
+
+                        <div className="membersFeedbackText">
+
+                            <h3>Micaella Condoiselle</h3>
+
+                            <h5>Viciada em Bis</h5>
+
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+
+                            <img draggable="false" src={Micaella} />
+
+                            <div className="socialMediaMembers">
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Linkedin} alt="LinkedIn" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="membersCard">
+
+                        <div className="membersFeedbackText">
+
+                            <h3>Micaella Condoiselle</h3>
+
+                            <h5>Viciada em Bis</h5>
+
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+
+                            <img draggable="false" src={Micaella} />
+
+                            <div className="socialMediaMembers">
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Linkedin} alt="LinkedIn" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <h2>Coordenadoria do Comercial</h2>
+                <h1>Coordenadoria do Comercial</h1>
 
                 <div className="membersFeedback">
 
@@ -193,6 +271,50 @@ function Members() {
                         </div>
 
                     </div>
+
+                    <div className="membersCard">
+
+                        <div className="membersFeedbackText">
+
+                            <h3>The only one 💯</h3>
+
+                            <h5>Norte Fluminense tem IFF?</h5>
+
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+
+                            <img draggable="false" src={oPai} />
+
+                            <div className="socialMediaMembers">
+
+                                <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
+
+                                    <img src={Linkedin} alt="LinkedIn" />
+
+                                </a>
+
+                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h1>Coordenadoria de Gente e Gestão</h1>
+
+                <div className="membersFeedback">
 
                     <div className="membersCard">
 
@@ -272,7 +394,7 @@ function Members() {
 
                 </div>
 
-                <h2>Coordenadoria de Gente e Gestão</h2>
+                <h1>Coordenadoria de Marketing 🤢🤢</h1>
 
                 <div className="membersFeedback">
 
@@ -303,164 +425,6 @@ function Members() {
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className="membersCard">
-
-                        <div className="membersFeedbackText">
-
-                            <h3>The only one 💯</h3>
-
-                            <h5>Norte Fluminense tem IFF?</h5>
-
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
-
-                            <img draggable="false" src={oPai} />
-
-                            <div className="socialMediaMembers">
-
-                                <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
-
-                                    <img src={Linkedin} alt="LinkedIn" />
-
-                                </a>
-
-                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className="membersCard">
-
-                        <div className="membersFeedbackText">
-
-                            <h3>Micaella Condoiselle</h3>
-
-                            <h5>Viciada em Bis</h5>
-
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
-
-                            <img draggable="false" src={Micaella} />
-
-                            <div className="socialMediaMembers">
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Linkedin} alt="LinkedIn" />
-
-                                </a>
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <h2>Coordenadoria de Marketing</h2>
-
-                <div className="membersFeedback">
-
-                    <div className="membersCard">
-
-                        <div className="membersFeedbackText">
-
-                            <h3>Guiguibas</h3>
-
-                            <h5>Pai do Discord</h5>
-
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
-
-                            <img draggable="false" src={Gui} />
-
-                            <div className="socialMediaMembers">
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Linkedin} alt="LinkedIn" />
-
-                                </a>
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div className="membersCard">
-
-                        <div className="membersFeedbackText">
-
-                            <h3>The only one 💯</h3>
-
-                            <h5>Norte Fluminense tem IFF?</h5>
-
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
-
-                            <img draggable="false" src={oPai} />
-
-                            <div className="socialMediaMembers">
-
-                                <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
-
-                                    <img src={Linkedin} alt="LinkedIn" />
-
-                                </a>
-
-                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
-
-                                    <img src={Instagram} alt="Instagram" />
-
-                                </a>
-
-                                <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
                                     <img src={Instagram} alt="Instagram" />
 
@@ -512,11 +476,11 @@ function Members() {
 
                 </div>
 
-                <h2>Coordenadoria da Projetos</h2>
+                <h1>Coordenadoria de Projetos</h1>
 
                 <div className="membersFeedback">
 
-                    <div className="membersCard">
+                    <div id="cardProjects" className="membersCard">
 
                         <div className="membersFeedbackText">
 
@@ -554,7 +518,7 @@ function Members() {
 
                     </div>
 
-                    <div className="membersCard">
+                    <div id="cardProjects" className="membersCard">
 
                         <div className="membersFeedbackText">
 
@@ -592,7 +556,45 @@ function Members() {
 
                     </div>
 
-                    <div className="membersCard">
+                    <div id="cardProjects" className="membersCard">
+
+                        <div className="membersFeedbackText">
+
+                            <h3>Micaella Condoiselle</h3>
+
+                            <h5>Viciada em Bis</h5>
+
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
+
+                            <img draggable="false" src={Micaella} />
+
+                            <div className="socialMediaMembers">
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Linkedin} alt="LinkedIn" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
+
+                                    <img src={Instagram} alt="Instagram" />
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="cardProjects" className="membersCard">
 
                         <div className="membersFeedbackText">
 
@@ -633,6 +635,8 @@ function Members() {
                 </div>
 
             </section>
+
+            <Footer />
 
         </div>
 
