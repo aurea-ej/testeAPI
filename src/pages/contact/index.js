@@ -9,7 +9,7 @@ import WhatsappButton from "../../components/whatsappButton"
 import './style.scss'
 
 const WhoWeAre = () => {
-
+/* 
     const [ufs, setUfs] = useState([])
     const [selectedUf, setSelectedUf] = useState([])
     const [city, setCity] = useState([])
@@ -56,7 +56,7 @@ const WhoWeAre = () => {
         
     }
 
-/*     function handleInputChange(event) {
+   function handleInputChange(event) {
 
         const {name, value} = event.target
         setFormData({
@@ -65,7 +65,7 @@ const WhoWeAre = () => {
 
         })
         
-    } */
+    } 
 
     function sendEmail(e) {
         e.preventDefault();
@@ -97,7 +97,7 @@ const WhoWeAre = () => {
 
         window.scrollTo(0, 0)
 
-    }, []);
+    }, []); */
 
 
     return (
@@ -108,7 +108,7 @@ const WhoWeAre = () => {
 
             <section id='contactMain'>
 
-                <div className="logo-2">
+               {/*  <div className="logo-2">
                     <img src={logoAurea} alt="Logo Aurea" />
                 </div>
 
@@ -160,7 +160,7 @@ const WhoWeAre = () => {
                 </form>
 
 
-                <WhatsappButton />
+                <WhatsappButton /> */}
 
             </section>
 
