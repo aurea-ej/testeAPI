@@ -17,7 +17,7 @@ const services = () => {
             <Header />
                 <section id="servicesPage">
                     <div className="headServices">
-                        <img src={planeta}></img>
+                        <img src={planeta} alt=""></img>
                         <div className="textHeadServices">
                             <h1>Conheça os nossos serviços!</h1>
                             <p>

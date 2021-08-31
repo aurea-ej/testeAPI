@@ -1,18 +1,13 @@
 import { React } from 'react';
-import { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import mascote1 from '../../imgs/Mascote1.png'
-import Joelma from '../../imgs/Joelma.jpg'
 import oPai from '../../imgs/oPai.jpeg'
 import Gui from '../../imgs/Gui.jpeg'
 import Micaella from '../../imgs/Micaella.jpg'
 import Linkedin from "../../imgs/linkedinLogo2.svg"
 import Instagram from "../../imgs/instagramLogo2.svg"
 
-import WhatsappButton from "../../components/whatsappButton"
 
 import './style.scss'
 
@@ -48,25 +43,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Gui} />
+                            <img draggable="false" src={Gui} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -86,25 +81,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={oPai} />
+                            <img draggable="false" src={oPai} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -124,25 +119,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -162,25 +157,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -200,25 +195,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -244,25 +239,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Gui} />
+                            <img draggable="false" src={Gui} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -282,25 +277,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={oPai} />
+                            <img draggable="false" src={oPai} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -326,25 +321,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={oPai} />
+                            <img draggable="false" src={oPai} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -364,25 +359,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -408,25 +403,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Gui} />
+                            <img draggable="false" src={Gui} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -446,25 +441,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank">
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank" rel="noreferrer">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
-
-                                </a>
-
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank">
-
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
-                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank">
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank" rel="noreferrer">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
+
+                                </a>
+
+                                <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper" target="_blank" rel="noreferrer">
+
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -490,25 +485,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Gui} />
+                            <img draggable="false" src={Gui} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -528,25 +523,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={oPai} />
+                            <img draggable="false" src={oPai} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="https://www.linkedin.com/in/higor-brandao" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="https://instagram.com/higorgbrandao" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -566,25 +561,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
@@ -604,25 +599,25 @@ function Members() {
 
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus commodi, eius sed aliquid dolorum sapiente obcaecati accusamus quae possimus voluptatum nisi, tempora aperiam quos cupiditate fugiat ut reiciendis, totam neque fugit? Veritatis, architecto aliquam!"</p>
 
-                            <img draggable="false" src={Micaella} />
+                            <img draggable="false" src={Micaella} alt=""/>
 
                             <div className="socialMediaMembers">
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Linkedin} alt="LinkedIn" />
+                                    <img src={Linkedin} alt="LinkedIn"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 
                                 <a href="http://www.siscomex.gov.br/" className="socialMediaWrapper">
 
-                                    <img src={Instagram} alt="Instagram" />
+                                    <img src={Instagram} alt="Instagram"/>
 
                                 </a>
 

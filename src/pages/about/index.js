@@ -1,18 +1,8 @@
 import { React } from 'react';
-import { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import mascote1 from '../../imgs/Mascote1.png'
-import Joelma from '../../imgs/Joelma.jpg'
-import oPai from '../../imgs/oPai.jpeg'
-import Gui from '../../imgs/Gui.jpeg'
-import Micaella from '../../imgs/Micaella.jpg'
-import Linkedin from "../../imgs/linkedinLogo2.svg"
-import Instagram from "../../imgs/instagramLogo2.svg"
-
-import WhatsappButton from "../../components/whatsappButton"
 
 import './style.scss'
 
@@ -29,15 +19,15 @@ function AboutUs() {
                     <div className='collumnObjects'>
                         <h1>Prazer, Aurea!</h1>
                         <p>Fundada no dia 9 de Agosto de 2016, a Aurea Soluções e Projetos deu os seus primeiros passos como uma Empresa Júnior no Instituto Federal Fluminense como uma empresa multidiciplinar que presta serviços nas áreas de
-                            <a>Engenharia de Computação</a>
-                            <a>Engenharia Elétrica</a>
-                            <a>Engenharia de Controle Computação</a>
-                            <a>Arquitetura e Urbanismo.</a>
+                            <a href="/Servicos">Engenharia de Computação, </a>
+                            <a href="/Servicos">Engenharia Elétrica, </a>
+                            <a href="/Servicos">Engenharia de Controle e Automação, </a>
+                            <a href="/Servicos">e Arquitetura e Urbanismo.</a>
                         </p>
                         <p>No ano de 2018 a Aurea passou pelo processo de federação, que de fato a introduziu ao MEJ (Movimento Empresa Júnior) como uma Empresa Júnior. E com muito esforço e trabalho duro recebemos nos anos de 2019 e 2020 diversas premiações de visibilidade estadual, fazendo com que a Aurea fosse reconhecida como uma empresa "Bi Impacto", ou seja, uma Empresa Júnior capaz de bater todas as suas metas anuais em dois anos consecutivos. Dessa forma, em um cenário de maturidade ainda mais expressivo, atualmente, em 2021, a Aurea está atrás de sua próxima conquista em rede: Alcançar o "Tri Impacto", batendo todas as metas anuais por três anos consecutivos.</p>
                     </div>
                     <div className="heroImgWrapper">
-                        <img draggable="false" src={mascote1} />
+                        <img draggable="false" src={mascote1} alt=""/>
                     </div>
                 </div>
 

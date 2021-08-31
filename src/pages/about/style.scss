@@ -98,6 +98,7 @@
         cursor: pointer;
         padding: 0 3px;
         font-weight: bold;
+        text-decoration: none;
     }
 
     p {
@@ -109,7 +110,7 @@
         margin-inline-end: 0px;
         font-size: 1.1em;
         z-index: 1;
-        text-align: justify;
+        text-align: left;
         width: 50vw;
     }
 }

@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 import emailjs from "emailjs-com";
 import Header from '../../components/header'
@@ -16,15 +16,6 @@ const WhoWeAre = () => {
     const [selectedCity, setSelectedCity] = useState([])
     // const [infoMail, setInfoMail] = useState('')
 
-    const [formData, setFormData] = useState({
-
-        name: '',
-        phone: '',
-        contact: '',
-        subject: '',
-        message: ''
-
-    })
 
     function getLocales() {
 
@@ -65,7 +56,7 @@ const WhoWeAre = () => {
         
     }
 
-    function handleInputChange(event) {
+/*     function handleInputChange(event) {
 
         const {name, value} = event.target
         setFormData({
@@ -74,7 +65,7 @@ const WhoWeAre = () => {
 
         })
         
-    }
+    } */
 
     function sendEmail(e) {
         e.preventDefault();

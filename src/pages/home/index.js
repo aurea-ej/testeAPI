@@ -1,26 +1,20 @@
 import { React } from 'react';
-import { useState, useEffect } from 'react';
 
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import WhatsappButton from "../../components/whatsappButton"
 
 import Astronauta1 from '../../imgs/Astronauta4.png'
-import casaArq from '../../imgs/CasaArq1.gif'
-import pcComp from '../../imgs/PcComp.gif'
 import astronauta from '../../imgs/astronauta.png'
 import LuaRoxo from '../../imgs/luaRoxa.png'
-import testes from '../../imgs/testes.png'
 import BJ from '../../imgs/ParceirosBJ.png'
 import IFF from '../../imgs/ParceirosIFF.png'
 import RJ from '../../imgs/ParceirosRJ.png'
 import MOTIM from '../../imgs/ParceirosMotim.png'
-import FundoFuturo from '../../imgs/fundo-futurista.png'
+import logoEmbrapii from '../../imgs/Logo-embrapi-1.png'
 import Joelma from '../../imgs/Joelma.jpg'
 
 import './style.scss'
-
-import { Link } from 'react-router-dom';
 
 function Home(){
 
@@ -45,15 +39,15 @@ function Home(){
                             <div className="heroData">
                                 <div className="heroCard"> 
                                     <p> +70 </p>
-                                    <a>Vidas impactadas</a> 
+                                    <b>Vidas impactadas</b> 
                                 </div>
                                 <div className="heroCard"> 
                                     <p> +70 </p>
-                                    <a> Sonhos realizados </a>
+                                    <b> Sonhos realizados </b>
                                 </div>
                                 <div className="heroCard"> 
                                     <p> 100% </p>
-                                    <a> Clientes satisfeitos </a>
+                                    <b> Clientes satisfeitos </b>
                                 </div>
                             </div>
                             
@@ -61,7 +55,7 @@ function Home(){
                         
                         <div className="heroImgWrapper">
 
-                            <img draggable="false" src={Astronauta1} />
+                            <img draggable="false" src={Astronauta1} alt=""/>
 
                         </div>
 
@@ -78,7 +72,7 @@ function Home(){
 
                         <div className="servicesImgWrapper">
 
-                            <img draggable="false" src={astronauta} />
+                            <img draggable="false" src={astronauta} alt=""/>
 
                         </div>
 
@@ -127,7 +121,7 @@ function Home(){
 
                         <div className="chooseImgWrapper">
 
-                            <img draggable="false" src={LuaRoxo} />
+                            <img draggable="false" src={LuaRoxo} alt=""/>
 
                         </div>
 
@@ -199,7 +193,7 @@ function Home(){
 
                             <div className="partnersText">
 
-                                <h2> <a href='http://www.riojunior.com.br/' target="_blank">RioJunior</a> </h2>
+                                <h2> <a href='http://www.riojunior.com.br/' target="_blank" rel="noreferrer">RioJunior</a> </h2>
                                 <p> Federação de Empresas Juniores do estado do Rio de Janeiro </p>
 
                             </div>
@@ -214,7 +208,7 @@ function Home(){
 
                             <div className="partnersText">
 
-                                <h2> <a href='https://brasiljunior.org.br/' target="_blank">Brasil Júnior</a> </h2>
+                                <h2> <a href='https://brasiljunior.org.br/' target="_blank" rel="noreferrer">Brasil Júnior</a> </h2>
                                 <p> Instância que representa as empresas juniores brasileiras </p>
 
                             </div>
@@ -229,7 +223,7 @@ function Home(){
 
                             <div className="partnersText">
 
-                                <h2> <a href='https://www.motim.me/' target="_blank">Motim</a> </h2>
+                                <h2> <a href='https://www.motim.me/' target="_blank" rel="noreferrer">Motim</a> </h2>
                                 <p> Organização bla bla bla </p>
 
                             </div>
@@ -244,7 +238,22 @@ function Home(){
 
                             <div className="partnersText">
 
-                                <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank">Instituto Federal Fluminense</a>  </h2>
+                                <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Instituto Federal Fluminense</a>  </h2>
+                                <p> Organização bla bla bla </p>
+
+                            </div>
+
+                        </div>
+
+                        <div className="partnersCards">
+
+                            <div className="partnersImgWrapper">
+                                <img src={logoEmbrapii} alt="Instituto Federal Fluminense"/>
+                            </div>
+
+                            <div className="partnersText">
+
+                                <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Polo de inovação / Embrapii</a>  </h2>
                                 <p> Organização bla bla bla </p>
 
                             </div>
